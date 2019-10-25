@@ -9,6 +9,8 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 build
+
+target
 .idea/**/shelf
 
 # Generated files
