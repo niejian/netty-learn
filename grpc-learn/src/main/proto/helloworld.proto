@@ -1,0 +1,17 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package= "demo";
+option java_outer_classname = "HelloworldProto";
+
+package helloworld;
+service GreetHelloworld {
+    rpc SayHello(HelloworldRequest) returns (HelloworldResponse);
+}
+
+message HelloworldRequest {
+    string name = 1;
+}
+
+message HelloworldResponse {
+    string message = 1;
+}

@@ -1,0 +1,36 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.utils</groupId>
+        <artifactId>netty-learn</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+    <artifactId>netty-server</artifactId>
+    <name>netty-server Tapestry 5 Application</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.com.bluemoon.baseFramework</groupId>
+            <artifactId>middleware-cloud</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.tapestry/tapestry5-annotations -->
+        <dependency>
+            <groupId>org.apache.tapestry</groupId>
+            <artifactId>tapestry5-annotations</artifactId>
+            <version>5.4.5</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.tapestry/tapestry-core -->
+        <dependency>
+            <groupId>org.apache.tapestry</groupId>
+            <artifactId>tapestry-core</artifactId>
+            <version>5.4.5</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
